@@ -1,4 +1,4 @@
-// Nombre del Cache
+// Nombre del Cache:
 const cacheName = 'cache-version-1';
 
 // Archivos/Recursos que vamos a "cachear"
