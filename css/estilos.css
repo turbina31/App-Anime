@@ -1,5 +1,5 @@
 header nav h1,a{
-    color: #FF17D8 !important;
+    color: #00f5ff !important;
 }
 header nav button span{
     background-color: #FF17D8 !important;
@@ -80,7 +80,7 @@ section .card{
 @media screen and (min-width:320px){
     header nav h1{
         font-size: 2em;
-        background-image: url('../img/icons/logo512x512-01.png');
+        background-image: url('../img/icons/logo512x512.png');
         background-size: contain;
         background-repeat: no-repeat;
         padding-left: 15%
@@ -93,6 +93,9 @@ section .card{
         background-position: 95%;
         padding-right: 20%;
     }
+    .main{
+        background-color: rgba(255, 255, 255, 0.3)
+    }
     .principal{
         transform: translateY(-0.5%);
         border-radius: 20px
@@ -100,8 +103,11 @@ section .card{
     .card{
         border-radius: 15px !important
     }
-    .card img{
-        border-radius: 15px !important
+    .card .footer .col{
+        padding: 0 !important
+    }
+    .card .footer img{
+        width: 50px
     }
     .dropdown a{
         color: white;
@@ -110,27 +116,6 @@ section .card{
     }
     .dropdown p{
         padding-left: 4%
-    }
-    .footer{
-        display: flex;
-        justify-content: space-between;
-        align-content: stretch;
-        align-items: center
-    }
-    .footer a{
-        padding: 0%
-    }
-    .footer .link{
-        width: 17%
-    }
-    .footer .link img{
-        width: 80%
-    }
-    .footer .link2{
-        height: 
-    }
-    .footer .link2 img{
-        width: 20%
     }
     /*---*/
     .title-img{
