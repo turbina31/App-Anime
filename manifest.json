@@ -29,7 +29,25 @@
       "url": "/index.html",
       "description": "Pagina de inicio, buscar anime",
       "icons": [
-        { "src": "/img/icons/inicio.png", "sizes": "192x192", "type": "image/png" }
+        { "src": "/img/icons/inicio.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"}
+      ]
+    },
+    {
+      "name": "Imagenes | Pica Man",
+      "short_name": "Imagenes | Pica Man",
+      "description": "Descarga de imagenes",
+      "url": "/imagenes.html",
+      "icons": [
+        { "src": "/img/icons/descarga.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"}
+      ]
+    },
+    {
+      "name": "Videos | Pica Man",
+      "short_name": "Videos | Pica Man",
+      "url": "/videos.html",
+      "description": "Videos de animes",
+      "icons": [
+        { "src": "/img/icons/video.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"}
       ]
     }
   ]
