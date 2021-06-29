@@ -5,10 +5,10 @@ header nav button span{
     background-color: #FF17D8 !important;
 }
 .section-notifications{
-    background-color: darksalmon;
+    display: none;
 }
 .offline {
-    display: none;
+    background-color: darksalmon;
 }
 aside{
      display: flex;
