@@ -14,7 +14,6 @@ else {
 // Event Listener para Offline/ Online Status
 window.addEventListener('offline', event => {
   let main = document.querySelector('.section-notifications').classList.add('offline');
-  main.innerHTML = "<p>La aplicacion esta offline!</p>"
 });
 
 window.addEventListener('online', event => {
